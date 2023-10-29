@@ -1,12 +1,13 @@
 # frozen_string_literal: true
 
+require "pry"
+require "webmock"
 require "hubspot"
 
 RSpec.configure do |config|
-  # Enable flags like --only-failures and --next-failure
-  config.example_status_persistence_file_path = ".rspec_status"
+  include WebMock::API
 
-  # Disable RSpec exposing methods globally on `Module` and `main`
+  config.example_status_persistence_file_path = ".rspec_status"
   config.disable_monkey_patching!
 
   config.expect_with :rspec do |c|
