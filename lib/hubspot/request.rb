@@ -9,7 +9,7 @@ module Hubspot
     def call!
       valid!
 
-      Success result: { response: request }
+      Success(result: { response: request })
     end
 
     private
