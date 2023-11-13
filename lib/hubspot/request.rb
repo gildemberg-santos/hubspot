@@ -18,7 +18,7 @@ module Hubspot
 
     def headers
       @headers ||=
-        { Authorization: "Bearer #{options[:token]}", "Content-Type": "application/json", Accept: "application/json" }
+        { Authorization: "Bearer #{options[:token]}", "Content-Type": "application/json" }
     end
 
     def query
