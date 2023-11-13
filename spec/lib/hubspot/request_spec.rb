@@ -6,7 +6,7 @@ RSpec.describe Hubspot::Request do
   let(:url) { "https://api.hubapi.com/crm/v3/objects/contacts/search" }
   let(:token) { "000-000-00000000-0000-0000-0000-000000000000" }
   let(:body) { { filters: [{ propertyName: "email", operator: "EQ", value: "teste@teste.com" }] } }
-  let(:headers) { { Authorization: "Bearer #{token}", "Content-Type": "application/json", Accept: "application/json" } }
+  let(:headers) { { Authorization: "Bearer #{token}", "Content-Type": "application/json" } }
   let(:options) { { method: :post, query: nil, body: body, token: token } }
 
   before { WebMock.enable! }
