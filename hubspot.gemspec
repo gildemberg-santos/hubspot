@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "u-case", "~> 4.5.2"
 
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "rubocop", "~> 0.80"
+  spec.add_development_dependency "rubocop", "~> 1.58"
   spec.add_development_dependency "pry", "~> 0.13.1"
   spec.add_development_dependency "webmock", "~> 3.9.5"
   spec.add_development_dependency "solargraph", "~> 0.48.0"
