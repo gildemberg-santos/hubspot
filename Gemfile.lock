@@ -46,7 +46,7 @@ GEM
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    public_suffix (5.0.3)
+    public_suffix (5.0.4)
     racc (1.7.3)
     rainbow (3.1.1)
     rake (13.1.0)
@@ -104,8 +104,8 @@ GEM
       kind (>= 5.6, < 6.0)
       u-attributes (>= 2.7, < 3.0)
     unicode-display_width (2.5.0)
-    webmock (3.9.5)
-      addressable (>= 2.3.6)
+    webmock (3.19.1)
+      addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
     yard (0.9.34)
@@ -121,7 +121,7 @@ DEPENDENCIES
   rspec (~> 3.0)
   rubocop (~> 1.58)
   solargraph (~> 0.48.0)
-  webmock (~> 3.9.5)
+  webmock (~> 3.19.1)
 
 BUNDLED WITH
    2.2.17
